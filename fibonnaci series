@@ -1,0 +1,9 @@
+fibonacci_numbers = [0,1]
+i = 0
+j = 1
+while len(fibonacci_numbers) <= 13: 
+    fibonacci_numbers.append(fibonacci_numbers[i] + fibonacci_numbers[j]) 
+    i += 1 
+    j += 1 
+    
+print (fibonacci_numbers)
